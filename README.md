@@ -52,11 +52,16 @@ The design passes, as the 100 PSI total variation per suspention coils requireme
 
 ## Study Design: MechaCar vs Competition
 Metrics to Test:
-- City and Highway Fuel Efficiency
-    -Rationale: Fuel Efficiency was judgmentally selected as the most important metrics to test. Consumers are becoming increasingly aware of fuel economy due to energy price fluctuations.
-- Null Hypothesis:
+City and Highway Fuel Efficiency
+    -Rationale: Fuel Efficiency was judgmentally selected as the most important metrics to test. Consumers are becoming increasingly aware of fuel 
+     economy due to energy price fluctuations.
+
+Null Hypothesis:
     -Feul Efficiency does not have a material effect on desireablility of consumers.
-- Alternative Hypothesis
+
+Alternative Hypothesis
     -There is a material positive correlation between Fuel Efficiency and Consumer Desireablility.
-- I would use a Linear Model Regression test and look at variance as a prediction target. If the variance remains unaffected when the Linear Regression Equation is executed on Fuel Efficiency and Consumer Desireability, the Null Hyphothesis holds. Otherwise, the Alternative Hypothesis holds.
-- I would need a determining metric such as city and highway mpg in similar body and engine types and seeing which leads to the optimal Fuel Economy.
+
+Test to Use:
+I would use a Linear Model Regression test and look at variance as a prediction target. If the variance remains unaffected when the Linear Regression Equation is executed on Fuel Efficiency and Consumer Desireability, the Null Hyphothesis holds. Otherwise, the Alternative Hypothesis holds.
+- Determining metrics such as city and highway miles per gallon (mpg) in similar body and engine types are key determinants. This provides visibility into the configuration that leads to the optimal Fuel Economy.
